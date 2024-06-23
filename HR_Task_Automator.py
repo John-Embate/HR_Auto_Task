@@ -6,7 +6,6 @@ from openai import OpenAI
 import io
 # from langchain.llms import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from transformers import GPT2Tokenizer
