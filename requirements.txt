@@ -2,6 +2,7 @@ streamlit
 pandas
 PyPDF2
 langchain
+xlsxwriter
 openai
 plotly==5.5.0
 matplotlib
