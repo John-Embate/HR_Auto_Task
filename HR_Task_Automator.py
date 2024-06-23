@@ -1,17 +1,14 @@
 import streamlit as st
 import pandas as pd
-from PyPDF2 import PdfReader
 import openai
 from openai import OpenAI
 import io
 # from langchain.llms import OpenAI
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.chains import RetrievalQA
 from transformers import GPT2Tokenizer
 import re
 import plotly.express as px
 import matplotlib.pyplot as plt
+from PyPDF2 import PdfReader
 
 
 # Sidebar for API Key and navigation
