@@ -1,6 +1,7 @@
 streamlit
 pandas
 PyPDF2
+langchain
 openai
 plotly==5.5.0
 matplotlib
